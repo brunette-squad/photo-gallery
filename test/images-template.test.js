@@ -1,16 +1,8 @@
-
+import template from '../src/images-template.js';
 const test = QUnit.test;
 
 QUnit.module('templating');
 
-function template(image) {
-    return /*html*/`
-    <li>
-        <img src="${image.url}" alt="${image.description}">
-        <h3 class="title">${image.title}</h3>
-    </li>
-    `;
-}
 
 test('testing template function', (assert) => {
     //Arrange
