@@ -7,6 +7,11 @@ body {
 
 }
 
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
 #photos {
     display: flex;
     flex-wrap: wrap;
